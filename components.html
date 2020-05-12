@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodersX Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- header -->
     <section id="header">
         <div class="container">
             <img src="./images/logo.png" alt="logo" class="logo">
@@ -39,12 +41,90 @@
     </nav>
     <img src="./images/menu.png" alt="btn" id="menuBtn">
 
+
+    <!-- about -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="./images/about.png" alt="about">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About us</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, eos architecto? Vitae, aliquam facere.
+                    Tempora sed reiciendis harum perferendis fugiat ipsa modi voluptatum in exercitationem obcaecati
+                    repellat blanditiis, quo, voluptatem error dolore! Molestias obcaecati ut at sint debitis doloribus
+                    cupiditate consequuntur molestiae fuga dolorum ad natus, sunt distinctio, iste corporis.</p>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h3>"Learning is not attained by chance, it must be sougth for with ardor and attended to with
+                    diligence"</h3>
+                <h4>---Abigail Adans---</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature -->
+    <section id="feature">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="./images/pic-1.png" alt="1">
+                <h4>Learn anywhere</h4>
+                <p>Switch between your computer, tablet or mobile device</p>
+            </div>
+            <div class="feature-col">
+                <img src="./images/pic-2.png" alt="2">
+                <h4>Expert teacher</h4>
+                <p>Learn from industry experts who are passionate about teaching</p>
+            </div>
+            <div class="feature-col">
+                <img src="./images/pic-3.png" alt="3">
+                <h4>Unlimited Access</h4>
+                <p>Choose what you'd like learn from our extensive subscription library</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <button class="common-btn">Start Free Trial</button>
+        </div>
+    </section>
+
+    <!-- courses -->
+    <section id="courses">
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Browse our top <br>Course</h1>
+                    <span class="square"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci quae officiis, impedit
+                        porro in tenetur, quam natus voluptatem saepe sed? Aut earum inventore ipsam deserunt corrupti
+                        eius magni fugiat nobis quaerat non asperiores, doloribus iste suscipit ea voluptate maiores
+                        nostrum laudantium, temporibus incidunt veniam nemo placeat illo ex obcaecati?</p>
+                    <button class="common-btn">View all course</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-right-col">
+                <img src="./images/course.png" alt="courses">
+            </div>
+        </div>
+    </section>
+
+
+
+
     <script>
         var menuBtn = document.getElementById("menuBtn");
         var sideNav = document.getElementById("sideNav");
         sideNav.style.right = "-250px";
-        menuBtn.onclick = function() {
-            if(sideNav.style.right === "-250px") {
+        menuBtn.onclick = function () {
+            if (sideNav.style.right === "-250px") {
                 sideNav.style.right = 0;
             }
             else sideNav.style.right = "-250px"
