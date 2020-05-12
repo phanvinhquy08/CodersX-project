@@ -45,7 +45,7 @@ p {
   line-height: 18px;
   color: #777;
 }
-.header-text button {
+button {
   margin-top: 20px;
   margin-bottom: 60px;
 }
@@ -169,7 +169,20 @@ nav ul li a {
 .course-left-col {
     flex-basis: 50%;
 }
-.course-text button {
-    margin-top: 20px;
-    margin-bottom: 60px;
+
+/* offer */
+.offer-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.offer-left-col {
+    flex-basis: 50%;
+}
+.offer-left-col img {
+    width: 100%;
+}
+.offer-right-col {
+    flex-basis: 50%;
+    text-align: right;
 }
